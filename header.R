@@ -16,7 +16,9 @@ sbf_reset_sub()
 rm(list = ls())
 graphics.off()
 
-# source("functions.R")
+source("functions.R")
+
+srate <- 75
 
 tz_data <- "PST8PDT"
 
